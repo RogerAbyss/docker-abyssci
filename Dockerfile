@@ -1,14 +1,15 @@
 FROM centos:7
 MAINTAINER Abyss <roger_ren@qq.com>
 
-RUN yum update -y
+RUN yum -y update
+RUN yum -y install epel-release
 
 # Python
-RUN yum install python -y
+RUN yum -y install python
+RUN yum -y install python-pip
 
 # Puby
-RUN yum install ruby -y
+RUN yum -y install ruby
 
 # Node
-RUN curl --silent --location https://rpm.nodesource.com/setup_8.x | bash -
-RUN yum install nodejs -y
+RUN yum -y install nodejs
