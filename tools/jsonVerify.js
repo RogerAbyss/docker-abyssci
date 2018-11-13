@@ -58,5 +58,3 @@ function fileDisplay(filePath){
       }
   });
 }
-
-console.log("[PASS] json校验完毕")
