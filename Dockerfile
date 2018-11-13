@@ -1,6 +1,9 @@
 FROM centos:7
 MAINTAINER Abyss <roger_ren@qq.com>
 
+# 字符集
+RUN export LC_ALL=en_US.UTF-8
+# 更新yum
 RUN yum -y update
 
 # 安装EPEL源
