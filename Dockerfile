@@ -21,3 +21,6 @@ RUN gem install mail
 
 # Node
 RUN yum -y install nodejs
+
+# Git
+RUN yum -y install git
