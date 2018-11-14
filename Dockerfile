@@ -15,7 +15,7 @@ RUN yum -y install zip
 RUN yum -y install python
 RUN yum -y install python-pip
 
-# Puby
+# Ruby
 RUN yum -y install ruby
 RUN gem install mail
 
